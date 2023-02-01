@@ -12,4 +12,5 @@
         <td>{{ $report['nik']}}</td>
     </tr>
     @endforeach
+    
 </table>
