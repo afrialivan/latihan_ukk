@@ -2,7 +2,6 @@
 
 {{ auth()->user()->nama }}
 
-
 <br><br><br>
 <table>
     @foreach ($reports as $report)
