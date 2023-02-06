@@ -1,6 +1,8 @@
 <a href="/pengaduan">buat laporan</a>
 
+@auth
 {{ auth()->user()->nama }}
+@endauth
 
 <br><br><br>
 <table>
